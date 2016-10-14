@@ -29,5 +29,7 @@ namespace SWEET4.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<SWEET4.Models.Ticket> Tickets { get; set; }
     }
 }

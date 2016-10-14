@@ -50,6 +50,11 @@ namespace SWEET4.Controllers
             }
         }
 
+        public ActionResult EditTickets()
+        {
+            return RedirectToAction("Index", "Tickets");
+        }
+
         //
         // GET: /Manage/Index
         public async Task<ActionResult> Index(ManageMessageId? message)
